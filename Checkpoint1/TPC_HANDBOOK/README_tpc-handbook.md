@@ -18,7 +18,7 @@ proposed topic.
 ## Repository structure
 
 ```
-tpc-handbook/
+TPC_HANDBOOK/
 ├── README.md                     <- you are here
 ├── data/
 │   ├── raw/                      <- 41 raw .txt handbook sections (Checkpoint 1 dataset)
