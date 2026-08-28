@@ -1,0 +1,9 @@
+google-genai
+python-dotenv
+requests
+beautifulsoup4
+numpy
+faiss-cpu
+sentence-transformers
+scikit-learn
+openai

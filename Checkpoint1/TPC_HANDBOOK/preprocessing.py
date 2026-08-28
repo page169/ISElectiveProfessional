@@ -21,11 +21,12 @@ import os
 import re
 import json
 
-RAW_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "raw")
-PROCESSED_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "processed")
-REPORT_PATH = os.path.join(os.path.dirname(__file__), "..", "docs", "preprocessing_report.md")
+RAW_DIR = os.path.join(os.path.dirname(__file__), "data")
+PROCESSED_DIR = os.path.join(os.path.dirname(__file__), "data", "processed")
+REPORT_PATH = os.path.join(os.path.dirname(__file__), "docs", "preprocessing_report.md")
 
 os.makedirs(PROCESSED_DIR, exist_ok=True)
+os.makedirs(os.path.dirname(REPORT_PATH), exist_ok=True)
 
 
 def clean_text(raw_text: str) -> str:
